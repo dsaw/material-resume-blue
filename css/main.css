@@ -1,0 +1,26 @@
+
+
+body {
+    width: 100%;
+    min-width: 200px;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*
+ Centers all blocks inside page
+ */
+body > * > * {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+#top-navbar-list > li {
+    display: inline-block;
+    width: 70px;
+    list-style: none;
+}
+
+
