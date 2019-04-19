@@ -1,26 +1,79 @@
 
-
+/* Main
+*
+*/
 body {
     width: 100%;
     min-width: 200px;
 
     display: flex;
     flex-flow: column wrap;
+
+
+    font-size: 16px;  /*Default size*/
 }
 
 /*
  Centers all blocks inside page
  */
-body > * > * {
+body > * {
     width: 85%;
     margin: 0 auto;
+    padding: 10px 5px;
+}
+
+li {
+
+    list-style: none;
+
+}
+
+
+
+
+
+/*
+   Header
+
+
+ */
+
+#top-navbar-list {
+    padding-left: 15px;
 }
 
 
 #top-navbar-list > li {
     display: inline-block;
     width: 70px;
-    list-style: none;
+
+
 }
 
+
+#top-navbar-list > li a {
+    text-decoration: none;
+}
+
+#top-navbar-list > li a:visited {
+    text-decoration: none;
+}
+
+#header-box {
+
+
+}
+
+#occup {
+    font-size: 1.1em;
+}
+
+
+
+
+#resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
