@@ -13,6 +13,7 @@ body {
     font-size: 16px;  /*Default size*/
 }
 
+
 /*
  Centers all blocks inside page
  */
@@ -28,9 +29,21 @@ li {
 
 }
 
+ul {
+
+    padding-left: 0;
+}
 
 
+.row-flex-default {
+    display: flex;
 
+}
+
+figure > img {
+    text-align: center;
+
+}
 
 /*
    Header
@@ -72,8 +85,31 @@ li {
 
 
 #resume {
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 1 1 200px;
+
+    height: 700px;
 }
+/*
+Resume main parts
+ */
+
+.left-side {
+    width: 40%;
+}
+
+
+.right-side {
+    width: 50%;
+}
+
+
+/*
+footer
+ */
+
+
 
