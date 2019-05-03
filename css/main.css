@@ -73,16 +73,23 @@ figure > img {
 }
 
 #header-box {
+    padding: 15px;
+    padding-left: 5px;
 
+}
 
+#intro {
+    padding: 30px 0;
+    line-height: 1.5em;
 }
 
 #occup {
     font-size: 1.1em;
 }
 
-
-
+/*
+Resume main parts
+*/
 
 #resume {
 
@@ -91,11 +98,8 @@ figure > img {
     flex-wrap: wrap;
     flex: 1 1 200px;
 
-    height: 700px;
+    height: 800px;
 }
-/*
-Resume main parts
- */
 
 .left-side {
     width: 40%;
@@ -107,9 +111,77 @@ Resume main parts
 }
 
 
+#resume li {
+    padding: 7px 0;
+}
+
+
+/*
+  Personal section
+ */
+#personal-options, #software-list {
+    float: left;
+    width: 35%;
+}
+
+#personal-values, #skill-bar-list {
+    float: right;
+    width: 65%;
+}
+
+#personal li{
+    padding: 7px 0;
+}
+
+hr {
+    margin: 0;
+}
+
+/*Software skills*/
+
+.skill-bar {
+    height: 12px;
+    padding: 3px;
+    position: relative;
+    background: #555;
+    width: 100%;
+}
+
+.skill-bar > span {
+    display: block;
+    background: #386ec4;
+    height: 100%;
+}
+
+
+
+
 /*
 footer
  */
 
 
+#social-media-contacts > figure {
+    width: 32%;
 
+}
+
+#footer-address {
+    height: 40px;
+    padding: 10px 10px;
+}
+
+
+
+
+#address {
+    width: 70%;
+    float: left;
+    padding: 5px;
+}
+
+#website {
+    width: 20%;
+    float: right;
+    padding: 5px;
+}
