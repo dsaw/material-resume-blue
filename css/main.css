@@ -138,6 +138,11 @@ hr {
 }
 
 /*Software skills*/
+#skill-bar-list {
+
+}
+
+
 
 .skill-bar {
     height: 12px;
@@ -153,8 +158,16 @@ hr {
     height: 100%;
 }
 
+/* Hobbies */
 
+#hobbies figure {
 
+    width: 100px;
+}
+
+.leftmost-no-margin {
+    margin-left: 2px;
+}
 
 /*
 footer
