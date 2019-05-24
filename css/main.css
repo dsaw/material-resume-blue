@@ -185,14 +185,40 @@ hr {
 
 #pro-skills figure {
     width: 110px;
-    height: 60px;
+    height: 120px;
     padding: 4px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
+/*
+SVG progress circles
+ */
 
+.progress_circle1 {
+    stroke-dasharray: 200 114;
+    stroke-dashoffset: 0;
+}
 
+.progress_circle2 {
+    stroke-dasharray: 100 214;
+    stroke-dashoffset: 0;
+}
+
+.progress_circle3 {
+    stroke-dasharray: 170 144;
+    stroke-dashoffset: 0;
+}
+
+.progress_circle4 {
+    stroke-dasharray: 190 124;
+    stroke-dashoffset: 0;
+}
+
+.progress_circle5 {
+    stroke-dasharray: 314 0;
+    stroke-dashoffset: 0;
+}
 /*
 footer
  */
