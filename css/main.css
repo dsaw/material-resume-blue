@@ -172,15 +172,39 @@ hr {
 /* right side
 
  */
+/*
+Bulletpoint list
+ */
+
+.bulletpoint-list > li {
+    list-style-position: outside;
+    list-style-image: url('../assets/svg/bulletpoint.svg');
+}
+
+.bulletpoint-list > li:before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    bottom: 2px;
+    left: -13px;
+
+    width: 1px;
+    background-color: #80deea;
+}
+
+
 #work ul,  #education ul {
-    margin-left: 20px;
+    position: relative;
+
+
+    padding-bottom: 10px;
+    margin: 0px;
 }
 
 
 #work li, #education  li {
-    list-style-type: disc;
-    list-style-position: outside;
-    padding-left: 20px;
+
+    padding-left: 15px;
 }
 
 #pro-skills figure {
@@ -219,6 +243,9 @@ SVG progress circles
     stroke-dasharray: 314 0;
     stroke-dashoffset: 0;
 }
+
+
+
 /*
 footer
  */
