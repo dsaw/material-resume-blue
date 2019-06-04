@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 
 /* Main
 *
@@ -15,12 +17,12 @@ body {
 
 
 /*
- Centers all blocks inside page
+ Centers all horizontal containers inside page
  */
-body > * {
+.container {
     width: 85%;
     margin: 0 auto;
-    padding: 10px 5px;
+    padding: 10px 25px;
 }
 
 li {
@@ -51,14 +53,36 @@ figure > img {
 
  */
 
+header {
+    padding-top: 0px;
+}
+
+#top-navbar-wrapper {
+    background-color: #2196f3;
+}
+
+#top-navbar {
+
+}
+
+
 #top-navbar-list {
     padding-left: 15px;
+    margin: 0px;
+
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 
 
 #top-navbar-list > li {
     display: inline-block;
-    width: 70px;
+    width: 80px;
+
+    padding: 10px 0;
+
 
 
 }
@@ -66,7 +90,13 @@ figure > img {
 
 #top-navbar-list > li a {
     text-decoration: none;
+
 }
+
+#top-navbar-list > li a:link {
+    color: #fff;
+}
+
 
 #top-navbar-list > li a:visited {
     text-decoration: none;
