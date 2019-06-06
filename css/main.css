@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
 
 /* Main
@@ -62,7 +62,7 @@ header {
 }
 
 #top-navbar {
-
+    padding-bottom: 0px;
 }
 
 
@@ -73,44 +73,80 @@ header {
     font-size: 0.9em;
     font-family: 'Roboto', sans-serif;
 
-
 }
 
 
-#top-navbar-list > li {
+#top-navbar-list  li {
     display: inline-block;
     width: 80px;
 
     padding: 10px 0;
 
-
-
+    text-align: center;
+    color: #90CAF9;
 }
 
 
-#top-navbar-list > li a {
-    text-decoration: none;
-
-}
-
-#top-navbar-list > li a:link {
-    color: #fff;
-}
-
-
-#top-navbar-list > li a:visited {
+#top-navbar-list  a {
+    color: #90CAF9;
     text-decoration: none;
 }
+
+/*
+ LVHA order
+ */
+#top-navbar-list a:link {
+
+}
+
+
+#top-navbar-list a:visited {
+
+
+  }
+
+#top-navbar-list a:active {
+
+}
+
+.active {
+    /* nav link is active*/
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #fff;
+}
+
+.link-active {
+    color: #ffffff !important;
+}
+
+
+#header-box-wrapper {
+    background-color: #29B6F6;
+    box-shadow: 0px 6px 2px 0px rgba(0,0,0,0.75);
+}
+
 
 #header-box {
     padding: 15px;
     padding-left: 5px;
 
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+}
+
+/* 3rd section*/
+
+#article-wrapper {
+    background-color: #616161;
 }
 
 #intro {
     padding: 30px 0;
-    line-height: 1.5em;
+    line-height: 1.2em;
+    color: #E0E0E0;
 }
 
 #occup {
