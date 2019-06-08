@@ -123,7 +123,8 @@ header {
 
 #header-box-wrapper {
     background-color: #29B6F6;
-    box-shadow: 0px 6px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.25);
+    z-index: 1;
 }
 
 
@@ -141,12 +142,15 @@ header {
 
 #article-wrapper {
     background-color: #616161;
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.37);
 }
 
 #intro {
     padding: 30px 0;
     line-height: 1.2em;
     color: #E0E0E0;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 #occup {
@@ -165,10 +169,13 @@ Resume main parts
     flex: 1 1 200px;
 
     height: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 
 .left-side {
     width: 40%;
+    padding: 0.1%;
 }
 
 
@@ -215,7 +222,7 @@ hr {
     padding: 3px;
     position: relative;
     background: #555;
-    width: 100%;
+    width: 95%;
 }
 
 .skill-bar > span {
