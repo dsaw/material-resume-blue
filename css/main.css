@@ -175,7 +175,9 @@ Resume main parts
 
 .left-side {
     width: 40%;
-    padding: 0.1%;
+    padding: 0 0.2% ;
+
+    box-shadow: 0px 0px 0px 4px white, 5px 0px 4px 0px rgba(0,0,0,0.37);
 }
 
 
