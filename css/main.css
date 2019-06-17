@@ -220,10 +220,10 @@ hr {
 
 
 .skill-bar {
-    height: 12px;
-    padding: 3px;
+    height: 18px;
+    padding: 0px;
     position: relative;
-    background: #555;
+    background: #E0E0E0;
     width: 95%;
 }
 
@@ -292,7 +292,7 @@ Bulletpoint list
 }
 
 #pro-skills figure {
-    width: 110px;
+
     height: 120px;
     padding: 4px;
     margin-left: 5px;
@@ -302,6 +302,14 @@ Bulletpoint list
 /*
 SVG progress circles
  */
+
+.progress_circle_blank {
+    stroke: #E0E0E0;
+}
+
+.progress_circle_fill {
+    stroke: #1976d2;
+}
 
 .progress_circle1 {
     stroke-dasharray: 200 114;
