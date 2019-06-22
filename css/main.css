@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-flow: column wrap;
 
+    font-family: 'Roboto', sans-serif;
 
     font-size: 16px;  /*Default size*/
 }
@@ -137,6 +138,9 @@ header {
     font-weight: lighter;
     letter-spacing: 0.2em;
 }
+
+
+
 
 /* 3rd section*/
 
@@ -345,15 +349,40 @@ footer
 
 #social-media-contacts > figure {
     width: 32%;
+    padding-top: 3px;
 
 }
+
+
+.social-media-caption {
+    padding: 6px 0;
+
+}
+
+#social-media-contacts-wrapper {
+    background-color: #29B6F6;
+    color: #ffffff;
+}
+
+.social-media-icon-wrapper {
+    margin: 0 auto;
+    width: 30%;
+}
+
 
 #footer-address {
     height: 40px;
-    padding: 10px 10px;
+    padding: 20px 10px;
+
+    color: white;
+
 }
 
-
+#footer-wrapper {
+    background-color: #2196f3;
+    font-weight: bold;
+    font-style: normal;
+}
 
 
 #address {
