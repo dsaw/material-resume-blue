@@ -16,6 +16,9 @@ body {
     font-size: 16px;  /*Default size*/
 }
 
+.strong {
+    font-weight: bold;
+}
 
 /*
  Centers all horizontal containers inside page
@@ -126,6 +129,8 @@ header {
     background-color: #29B6F6;
     box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.25);
     z-index: 1;
+
+
 }
 
 
@@ -137,10 +142,13 @@ header {
     color: #ffffff;
     font-weight: lighter;
     letter-spacing: 0.2em;
+    display: flex;
 }
 
 
-
+#photo {
+    width: 100px;
+}
 
 /* 3rd section*/
 
