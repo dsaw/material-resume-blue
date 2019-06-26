@@ -358,7 +358,9 @@ footer
 #social-media-contacts > figure {
     width: 32%;
     padding-top: 3px;
-
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 
@@ -373,9 +375,11 @@ footer
 }
 
 .social-media-icon-wrapper {
-    margin: 0 auto;
-    width: 30%;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 
 #footer-address {
@@ -388,8 +392,8 @@ footer
 
 #footer-wrapper {
     background-color: #2196f3;
-    font-weight: bold;
-    font-style: normal;
+    font-weight: light;
+    font-style: initial;
 }
 
 
