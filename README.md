@@ -8,5 +8,5 @@ Clone of material resume design [here](https://creativemarket.com/ikonome/686585
 * Bulletpoint list 
 
 ## To do
-* Make it responsive - look ugly in low resolutions.
+* Make it responsive - looks ugly in low resolutions.
 * Refactor!
