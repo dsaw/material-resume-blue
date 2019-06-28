@@ -408,3 +408,22 @@ footer
     float: right;
     padding: 5px;
 }
+
+
+/*
+HOME page : Cover letter styles
+*/
+
+#cover-letter {
+    display: flex;
+    height: 600px;
+}
+
+/* parts of main cover letter*/
+.parts {
+    margin: 0 auto;
+    width: 60%;
+
+    padding: 20px 0;
+}
+
