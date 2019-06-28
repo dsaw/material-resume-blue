@@ -416,14 +416,26 @@ HOME page : Cover letter styles
 
 #cover-letter {
     display: flex;
-    height: 600px;
+    height: 800px;
 }
 
 /* parts of main cover letter*/
 .parts {
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
 
     padding: 20px 0;
+
 }
 
+.left-side .parts {
+    border-bottom: 0.5px solid black ;
+}
+
+.right-side .parts p {
+    padding-bottom: 10px;
+}
+
+#letter-heading {
+    padding: 30px 10px;
+}
