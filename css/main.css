@@ -51,6 +51,12 @@ figure > img {
 
 }
 
+.header-text {
+    color: #29B6F6;
+    font-weight: normal;
+
+}
+
 /*
    Header
 
@@ -189,6 +195,7 @@ Resume main parts
     width: 40%;
     padding: 0 0.5% ;
 
+    /* hack to hide shadow on top/bottom borders*/
     box-shadow: 0px 0px 0px 4px white, 5px 0px 4px 0px rgba(0,0,0,0.37);
 }
 
@@ -280,13 +287,20 @@ Bulletpoint list
 .bulletpoint-list > li:before {
     content: '';
     position: absolute;
-    top: 14px;
+    top: 39px;
     bottom: 2px;
     left: -13px;
 
     width: 1px;
     background-color: #80deea;
 }
+
+#work .bulletpoint-list  li:first-child:before {
+    top: 23px;
+}
+
+/* END bulletpoint list */
+
 
 
 #work ul,  #education ul {
@@ -424,12 +438,24 @@ HOME page : Cover letter styles
     margin: 0 auto;
     width: 50%;
 
-    padding: 20px 0;
+    padding: 5% 0;
 
 }
 
+#cover-letter .left-side {
+    box-shadow: 5px 0px 5px 3px rgba(0,0,0,0.37)
+}
+
+
 .left-side .parts {
     border-bottom: 0.5px solid black ;
+
+
+}
+
+.right-side .parts {
+    width: 70%;
+    padding-top: 40px;
 }
 
 .right-side .parts p {
@@ -438,4 +464,13 @@ HOME page : Cover letter styles
 
 #letter-heading {
     padding: 30px 10px;
+}
+
+
+#letter-body {
+    line-height: 1.25em;
+}
+
+#cover-letter .left-side {
+
 }
