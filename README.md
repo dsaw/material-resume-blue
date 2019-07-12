@@ -1,15 +1,21 @@
 # Material Resume Blue
-Clone of material resume design [here](https://creativemarket.com/ikonome/686585-Material-Resume-Blue/screenshots#screenshot2) in modern HTML/CSS. I made this as practice, to brush up frontend skills. There is no Javascript used in this, though could have been the case.
+Clone of material resume design [here](https://creativemarket.com/ikonome/686585-Material-Resume-Blue/screenshots#screenshot2) in modern HTML/CSS. I made this as practice, to brush up my frontend skills. There is no Javascript used in this, though could have been the case.
 
-## Features used 
+![Material Resume Clone](https://i.imgur.com/cy9JFHY.png)
+
+## Features used
+
 * SVG progress circles
 * Flexbox 
 * Skill bar in pure CSS
-* Bulletpoint list 
+* Bulletpoint list
+* Application of Flexbox
 
-## To do
+## To Do
+
 * Make it responsive - looks ugly in low resolutions.
 * Refactor!
+
 
 ## Attribution
 
