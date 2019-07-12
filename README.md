@@ -14,3 +14,4 @@ Clone of material resume design [here](https://creativemarket.com/ikonome/686585
 ## Attribution
 
 * Those hobby icons are made by [Freepik](https://www.freepik.com/), [Zlatko Najdenovski](https://www.flaticon.com/authors/zlatko-najdenovski), [mynamepong](https://www.flaticon.com/authors/mynamepong) from [Flaticon](https://www.flaticon.com/) licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+* Material design template from [ikono.me](https://creativemarket.com/ikonome).
