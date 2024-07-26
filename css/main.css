@@ -199,7 +199,7 @@ Resume main parts
      #resume {
          flex-direction: row;
      }
-      .left-side {
+     #resume .left-side {
         width: 40%;
         padding: 0 0.5% ;
     
@@ -208,8 +208,9 @@ Resume main parts
     }
     
     
-    .right-side {
+    #resume .right-side {
         width: 50%;
+        padding: 0 4%
     }
 }
 
@@ -445,7 +446,7 @@ HOME page : Cover letter styles
 /* parts of main cover letter*/
 .parts {
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
 
     padding: 5% 0;
 
