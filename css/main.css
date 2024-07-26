@@ -186,11 +186,10 @@ Resume main parts
     flex-wrap: wrap;
     flex: 1 1 200px;
 
-    height: 900px;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
- .left-side, right-side {
+ .left-side, .right-side {
     width: 90%;
   }
 
@@ -437,7 +436,7 @@ HOME page : Cover letter styles
 
 #cover-letter {
     display: flex;
-    height: 800px;
+    height: auto;
 }
 
 /* parts of main cover letter*/
