@@ -190,18 +190,25 @@ Resume main parts
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
-
-.left-side {
-    width: 40%;
-    padding: 0 0.5% ;
-
-    /* hack to hide shadow on top/bottom borders*/
-    box-shadow: 0px 0px 0px 4px white, 5px 0px 4px 0px rgba(0,0,0,0.37);
-}
+ .left-side, right-side {
+    width: 90%;
+  }
 
 
-.right-side {
-    width: 50%;
+
+@media screen and (min-width: 800px) {
+      .left-side {
+        width: 40%;
+        padding: 0 0.5% ;
+    
+        /* hack to hide shadow on top/bottom borders*/
+        box-shadow: 0px 0px 0px 4px white, 5px 0px 4px 0px rgba(0,0,0,0.37);
+    }
+    
+    
+    .right-side {
+        width: 50%;
+    }
 }
 
 
