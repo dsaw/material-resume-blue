@@ -182,7 +182,7 @@ Resume main parts
 #resume {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     flex: 1 1 200px;
 
@@ -196,6 +196,9 @@ Resume main parts
 
 
 @media screen and (min-width: 800px) {
+     #resume {
+         flex-direction: column;
+     }
       .left-side {
         width: 40%;
         padding: 0 0.5% ;
